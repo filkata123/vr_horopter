@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Horopter.unity
+    guid: d3269324945dc7043a91c04ad036f81a
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 0c25b2f47fc956145ad707315b3bd058,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 20a3bb3577dd693488d7212e2c82bc47,
+      type: 2}
