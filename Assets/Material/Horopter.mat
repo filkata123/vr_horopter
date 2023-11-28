@@ -56,8 +56,10 @@ Material:
     m_Ints: []
     m_Floats:
     - _CurveStrength: 1
+    - _DotDensity: 94
+    - _Float: 200
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _BaseColor: {r: 0.01886791, g: 0.01886791, b: 0.01886791, a: 0}
+    - _BaseColor: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
