@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Horopter_OneEye
+  m_Name: Horopter_Texture_Render
   m_Shader: {fileID: -6465566751694194690, guid: 952a02cd6e33a2243acf0be0e92d3e18,
     type: 3}
   m_Parent: {fileID: 0}
@@ -44,10 +44,10 @@ Material:
     - _QueueOffset: 0
     - _RenderBothEyes: 0
     - _RenderLeftEye: 1
-    - _RenderObject: 1
+    - _RenderObject: 0
     m_Colors: []
   m_BuildTextureStacks: []
---- !u!114 &7550704385069683284
+--- !u!114 &2323967000683863542
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
