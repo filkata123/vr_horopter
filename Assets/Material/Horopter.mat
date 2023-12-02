@@ -56,10 +56,13 @@ Material:
     m_Ints: []
     m_Floats:
     - _CurveStrength: 1
-    - _DotDensity: 94
+    - _DotDensity: 100
     - _Float: 200
+    - _IsEvenFrameCount: 1
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _RenderBothEyes: 1
+    - _RenderLeftEye: 1
     m_Colors:
     - _BaseColor: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
