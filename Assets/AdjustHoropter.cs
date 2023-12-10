@@ -14,6 +14,7 @@ public class AdjustHoropter : MonoBehaviour
     public float dotSize = 0.2f;
 
     Material mat;
+
     void Start()
     {
         mat = GetComponent<Renderer>().material;
@@ -43,5 +44,11 @@ public class AdjustHoropter : MonoBehaviour
     public void UpdateDotSize(float size)
     {
         dotSize = size;
+    }
+
+    // Update horopter tilt around x-axis based on slider input
+    public void UpdateHoropterTilt(float angle)
+    {
+        transform.eulerAngles = new Vector3(angle, transform.eulerAngles.y, transform.eulerAngles.z);
     }
 }

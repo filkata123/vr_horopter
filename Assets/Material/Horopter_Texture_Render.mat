@@ -44,7 +44,7 @@ Material:
     m_Floats:
     - _CurveStrength: 1
     - _DotDensity: 100
-    - _DotSize: 0
+    - _DotSize: 0.2
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RenderBothEyes: 0

@@ -60,7 +60,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _CurveStrength: 1
-    - _DotDensity: 84
+    - _DotDensity: 100
     - _DotSize: 0.2
     - _Float: 200
     - _IsEvenFrameCount: 1

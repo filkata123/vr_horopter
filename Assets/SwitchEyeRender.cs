@@ -19,7 +19,7 @@ public class SwitchEyeRender : MonoBehaviour
     {
         if (mat == null) { Debug.Log("No material found on object."); return; }
 
-        // Each frames change on which eye the object is rendered
+        // Each frame change on which eye the object is rendered
         mat.SetInt("_RenderLeftEye", Convert.ToInt32(renderLeftEye));
 
         renderLeftEye = !renderLeftEye;
