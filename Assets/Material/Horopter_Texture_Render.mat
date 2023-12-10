@@ -24,6 +24,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _SampleTexture2D_e78f6f643317439f867c7b9ba8b300be_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: b5c9448ddba954bc0afcc5c19cf42525, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -40,6 +44,7 @@ Material:
     m_Floats:
     - _CurveStrength: 1
     - _DotDensity: 100
+    - _DotSize: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RenderBothEyes: 0
