@@ -1,2 +1,4 @@
-# vr_horopter
-VR app that showcases the benefits of using a horopter as a reading surface.
+# VR Single-Eye rendering manipulation on Horopter
+This VR app showcases how different single-eye renering techniques can manipulate vision and simulate motion on a dotted horopter surface.
+
+Tested on Unity 2022.3.14f1 (LTS).
