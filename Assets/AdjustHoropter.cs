@@ -14,6 +14,7 @@ public class AdjustHoropter : MonoBehaviour
     public float dotSize = 0.2f;
 
     Material mat;
+    float horopterHeight = 1.2f;
 
     void Start()
     {
@@ -50,5 +51,11 @@ public class AdjustHoropter : MonoBehaviour
     public void UpdateHoropterTilt(float angle)
     {
         transform.eulerAngles = new Vector3(angle, transform.eulerAngles.y, transform.eulerAngles.z);
+    }
+
+    // Update horopter position on y-axis based on slider input
+    public void UpdateHoropterPosition(float position)
+    {
+        transform.position = new Vector3(transform.position.x, horopterHeight + position, transform.position.z);
     }
 }
