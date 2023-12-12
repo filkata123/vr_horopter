@@ -13,13 +13,11 @@ public class AnimateHandController : MonoBehaviour
     private float _gripValue;
     private float _triggerValue;
 
-    // Start is called before the first frame update
     void Start()
     {
         _handAnimator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         AnimateGrip();

@@ -5,12 +5,12 @@ using UnityEngine;
 
 public class SwitchEyeRenderVariable: MonoBehaviour
 {
-    public float frameNum = 10;
+    // Frame rate at which the object will be rendered per eye
+    float frameNum = 10;
 
     Material mat;
     bool renderLeftEye = true; // renders left eye if true, right eye if false
 
-    // Start is called before the first frame update
     void Start()
     {
         mat = GetComponent<Renderer>().material;
@@ -28,9 +28,9 @@ public class SwitchEyeRenderVariable: MonoBehaviour
         }
     }
 
+    // Change rendering eye
     void ChangeEye()
     {
-        // Each frameNum frames change on which eye the object is rendered
         mat.SetInt("_RenderLeftEye", Convert.ToInt32(renderLeftEye));
 
         renderLeftEye = !renderLeftEye;

@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class UpdateHeightText : MonoBehaviour
+public class TextUpdate : MonoBehaviour
 {
     TMP_Text tmp;
-    // Start is called before the first frame update
     void Start()
     {
         tmp = GetComponent<TMP_Text>();
     }
 
+    // Update text displayed under frame rates slider to showcase frames and Hz
     public void UpdateTextToSliderValue(float value)
     {
-        tmp.text = (1.2f + value).ToString("0.00") + " m";
+        tmp.text = value.ToString() + " frames / " + ((1.0f/Time.smoothDeltaTime) / value).ToString("0") + " Hz";
     }
 }

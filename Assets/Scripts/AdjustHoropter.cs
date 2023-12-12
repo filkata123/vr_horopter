@@ -4,47 +4,31 @@ using UnityEngine;
 
 public class AdjustHoropter : MonoBehaviour
 {
-    [Range(1, 5)]
-    public float curveStrength = 1.0f;
-
-    [Range(1, 200)]
-    public float dotDensity = 100.0f;
-
-    [Range(0.01f, 1)]
-    public float dotSize = 0.2f;
-
     Material mat;
     float horopterHeight = 1.2f;
 
     void Start()
     {
         mat = GetComponent<Renderer>().material;
-    }
-
-    void Update()
-    {
         if (mat == null) { Debug.Log("No material found on object."); return; }
-        mat.SetFloat("_CurveStrength", curveStrength);
-        mat.SetFloat("_DotDensity", dotDensity);
-        mat.SetFloat("_DotSize", dotSize);
     }
 
     // Update curve strength based on slider input
     public void UpdateCurveStrength(float strength)
     {
-        curveStrength = strength;
+        mat.SetFloat("_CurveStrength", strength);
     }
 
     // Update dot density based on slider input
     public void UpdateDotDensity(float density)
     {
-        dotDensity = density;
+        mat.SetFloat("_DotDensity", density);
     }
 
     // Update dot size based on slider input
     public void UpdateDotSize(float size)
     {
-        dotSize = size;
+        mat.SetFloat("_DotSize", size);
     }
 
     // Update horopter tilt around x-axis based on slider input

@@ -17,11 +17,6 @@ public class SetPokeToFingerAttachPoint : MonoBehaviour
         SetPokeAttachPoint();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     void SetPokeAttachPoint()
     {
         if (PokeAttachPoint == null) { Debug.Log("Poke Attach Point is null"); return; }
